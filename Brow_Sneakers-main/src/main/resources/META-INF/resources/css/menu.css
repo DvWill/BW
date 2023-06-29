@@ -1,0 +1,76 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #3c0550, #000000, #3c0550);
+    background-size: 400% 400%;
+    animation: Gradient 7s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.teste{
+    background-color: transparent;
+}
+
+.caixa {
+    background-color: rgb(0, 0, 0);
+    box-shadow: transparent;
+    margin-bottom: 17%;
+    text-align: center;
+
+}
+
+.input-all {
+    text-align: left;
+    display: grid;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+
+}
+
+.input-focus {
+    border-color: #ed7702;
+}
+
+.input-decoration {
+    border-color: rgb(33, 9, 45);
+    border-radius: 5%;
+    border-width: 5%;
+    background-color: transparent;
+}
+
+.btnlog {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 35%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.mastfoot {
+    display: flex;
+    color: rgb(33, 9, 45);
+    justify-content: center;
+    background-color: rgb(33, 9, 45);
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .caixa{
+        width: 100%;
+        margin: 0 5%;
+    }
+
+}

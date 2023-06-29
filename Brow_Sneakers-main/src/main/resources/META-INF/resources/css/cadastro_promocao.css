@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(33, 9, 45);
+}
+
+.caixa {
+    background-color: rgb(33, 9, 45);
+    padding: 1%;
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 2px 0px #21092d;
+    margin-bottom: 15%;
+    border-radius: 5%;
+}
+
+.input-all {
+    text-align: left;
+    display: grid;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    width: 50%;
+
+}
+
+.input-focus {
+    border-color: aqua;
+}
+
+.espaco {
+    margin-top: 2%;
+}
+
+.input-decoration {
+    border-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border-width: 5%;
+    background-color: transparent;
+}
+
+.btnlog {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 35%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.mastfoot {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .caixa{
+        width: 100%;
+        margin: 0 5%;
+    }
+
+}

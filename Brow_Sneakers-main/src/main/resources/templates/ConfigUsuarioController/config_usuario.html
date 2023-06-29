@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="/img/logo_mercado.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="/css/config_usuario.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="container flex">
+    <div class="item flex-item-1">
+        <div class="card" style="width: 18rem;">
+            <img src="img/caixa.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Caixa</h5>
+
+                <a href="caixa" style="text-decoration: none" class="btn btn-primary">Editar</a>
+            </div>
+        </div>
+    </div>
+    <div class="item flex-item-1">
+        <div class="card" style="width: 18rem;">
+            <img src="gerente.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Gerente</h5>
+
+                <a href="gerente" style="text-decoration: none" class="btn btn-primary" onclick="redirecionarParaPagina()">Editar</a>
+            </div>
+        </div>
+    </div>
+    <div class="item flex-item-1">
+        <div class="card" style="width: 18rem;">
+            <img src="img/estoque.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Controlador de Estoque</h5>
+
+                <a href="estoque" style="text-decoration: none" class="btn btn-primary">Editar</a>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="voltar" onclick="voltar()">Voltar</button>
+</section>
+
+<script type="text/javascript" src="/js/perfilgerente.js"></script>
+<script type="text/javascript" src="/js/config_usuario.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #3c0550, #000000, #3c0550);
+    background-size: 400% 400%;
+    animation: Gradient 7s ease infinite;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.caixa {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.input-all {
+    text-align: left;
+    display: grid;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    width: 50%;
+
+}
+
+.input-focus {
+    border-color: #ffffff;
+}
+
+.espaco {
+    margin-top: 2%;
+}
+
+.btnlog {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 35%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+.mastfoot {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    .caixa{
+        width: 100%;
+        margin: 0 5%;
+    }
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh; /* altura para centralizar verticalmente */
+}
+
+.box {
+    margin: auto;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}

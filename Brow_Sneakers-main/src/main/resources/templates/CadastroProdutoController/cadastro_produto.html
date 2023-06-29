@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="/img/logo_mercado.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="css/cadastro_produto.css">
+    <title>Cadastro Produto</title>
+</head>
+
+<body>
+<section class="caixa">
+    <h1>Cadastro Produto</h1>
+    <div class="input-all">
+        <label class="espaco">Nome do Produto</label>
+        <input class="form-control" type="text" id="name_produto"  required>
+
+        <label class="espaco">Categoria</label>
+        <input class="form-control" type="text" id="name_categoria" required>
+
+        <label class="espaco">Data de lancamento</label>
+        <input class="form-control" type="date" id="data_validade" required>
+
+        <label class="espaco">Preço</label>
+        <input class="form-control" type="number" id="preco_produto"  required>
+
+    </div>
+    <button type="button" class="btn btn-dark btnlog" onclick="cadastro_produto()">Cadastrar Produto</button>
+    <a href="/menu">Voltar</a>
+</section>
+<footer class="mastfoot mt-auto">
+    <div class="inner">
+        <p>Você pode me encontrar no meu GitHub<a href="https://github.com/DvWill/"> DvWill</a></p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="js/cadastro_produto.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>

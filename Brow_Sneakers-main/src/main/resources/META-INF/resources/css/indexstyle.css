@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #3c0550, #000000, #3c0550);
+    background-size: 400% 400%;
+    animation: Gradient 7s ease infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh; /* altura para centralizar verticalmente */
+}
+
+.box {
+    margin: auto;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
